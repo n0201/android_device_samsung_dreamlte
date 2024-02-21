@@ -18,9 +18,6 @@
 
 DEVICE_PATH := device/samsung/dreamlte
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := dreamlte
-
 # Glove mode
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/glove_manifest.xml
 
